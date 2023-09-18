@@ -115,6 +115,22 @@ md"""
 #### Opening a new cell
 """
 
+# ╔═╡ df155c1a-ca04-4bb9-954f-e5684aef683c
+md"""
+řeřicha
+"""
+
+# ╔═╡ 9dc454b2-9d5d-4ab1-aa0b-75ddefb6960d
+md"""
+ddasdas
+"""
+
+# ╔═╡ 2e4b767f-45e2-47b4-b793-fe553f53bfad
+# ╠═╡ disabled = true
+#=╠═╡
+
+  ╠═╡ =#
+
 # ╔═╡ 564ff460-aa1f-4b9d-abf3-a024a13d96a3
 md"""
 
@@ -161,7 +177,8 @@ md"""
 
 # ╔═╡ 2da4b605-2d9e-494a-810f-5d153dee7096
 md"""
-#### Bold and Italics
+$x+y = 10$
+$10x+1y = 15$
 """
 
 # ╔═╡ 8c3253f4-86c2-4b88-9850-f7daed87774d
@@ -254,6 +271,31 @@ md"""
 	
 """
 
+# ╔═╡ 74859869-a180-49ec-92aa-c8a5084fa019
+md"""
+Today is a sunny day!
+"""
+
+# ╔═╡ 18b4d9f4-a871-42bd-8668-2a51532f2199
+md"""
+**Today is a sunny day!**
+
+_Today is a sunny day!_
+"""
+
+# ╔═╡ 992e5c74-8892-4e07-93b2-138f33cd7982
+md"""
+This is text and mathematics with a funny equation
+$y=xz/2$
+
+$y=\dfrac{yx}{2}$
+"""
+
+# ╔═╡ 47aef155-bb60-4076-9156-e5aa1f52516f
+md"""
+$y=3x^2$
+"""
+
 # ╔═╡ a0280f97-cf3d-4aaf-a013-45d957bd5700
 md"""
 !!! tip "Answer"
@@ -318,7 +360,10 @@ md"""
 """
 
 # ╔═╡ f01ee3cf-674b-41e2-8615-aebacb9ba384
-paty = (fiona * mary , fiona^2 , fiona*mary , 10*fiona)
+paty = (fiona * mary , fiona^2 , fiona*mary , 10*fiona,60)
+
+# ╔═╡ b92ca7c0-de44-4f39-9195-9d292b955885
+paty[5]
 
 # ╔═╡ 26c4d01b-729e-4629-90a8-1e91247d0dff
 md"""
@@ -430,6 +475,13 @@ md"""
 	- Write in this cell the following symbols (beta, psi, theta): β ψ θ
 """
 
+# ╔═╡ f2ebc1b2-aedb-49a1-8e7f-4c1ed253dfd2
+md"""
+β
+ψ
+θ
+"""
+
 # ╔═╡ 96c4c032-7444-496d-98df-88b297b02930
 md"""
 ____________________________________________________________________________________________________________
@@ -506,6 +558,12 @@ md"""
 !!! hint
 
 	According to the usual definition of GDP by the expenditure method, GDP is equal to the sum of  private consumption, plus public expenditure on goods and services, plus investment and inventories, plus exports minus imports.
+"""
+
+# ╔═╡ 3d5525e4-a4e7-402b-a059-4a2a68c6007b
+md"""
+wirpt
+cig
 """
 
 # ╔═╡ acb697d5-7740-4288-a315-011bba9a4d3e
@@ -1926,13 +1984,16 @@ version = "17.4.0+0"
 # ╟─86f1359d-3637-4892-9720-e042fae6543a
 # ╟─0fc80d2d-6519-4f17-83c4-25ab9b26d8ce
 # ╟─16ecc97b-a401-4172-bcbb-b0baa156b53c
+# ╟─df155c1a-ca04-4bb9-954f-e5684aef683c
+# ╟─9dc454b2-9d5d-4ab1-aa0b-75ddefb6960d
+# ╠═2e4b767f-45e2-47b4-b793-fe553f53bfad
 # ╟─564ff460-aa1f-4b9d-abf3-a024a13d96a3
 # ╟─6307472b-3a3e-4d9a-82fd-25d295abaae1
 # ╟─638ac59a-6fb2-447f-8856-0c6f74494e7b
 # ╟─98f18fc3-0748-4ec7-a6a0-955e2ea22e19
 # ╟─e81d6184-2b39-4205-83a8-9e2d7e5d41dd
 # ╟─70af87bd-81b5-4aa0-b1f7-0639d1f09d0a
-# ╟─2da4b605-2d9e-494a-810f-5d153dee7096
+# ╠═2da4b605-2d9e-494a-810f-5d153dee7096
 # ╟─8c3253f4-86c2-4b88-9850-f7daed87774d
 # ╟─40139e5d-3069-4a48-ab37-48849eac8ec6
 # ╟─939053b1-5c6b-4246-9102-d845e37c70a0
@@ -1941,6 +2002,10 @@ version = "17.4.0+0"
 # ╟─f6162891-de97-4522-a919-4942158cb2a0
 # ╟─b3c16511-06d5-476d-b1ce-b8b35d038819
 # ╟─dca08890-c8af-4a31-b7cd-bf27e9bd91b7
+# ╟─74859869-a180-49ec-92aa-c8a5084fa019
+# ╟─18b4d9f4-a871-42bd-8668-2a51532f2199
+# ╟─992e5c74-8892-4e07-93b2-138f33cd7982
+# ╟─47aef155-bb60-4076-9156-e5aa1f52516f
 # ╟─a0280f97-cf3d-4aaf-a013-45d957bd5700
 # ╟─dfc08cee-92a3-43dd-a4be-e66a7a3ae4d9
 # ╟─847ceec0-33cc-4cf4-a27f-ab7b85944529
@@ -1952,6 +2017,7 @@ version = "17.4.0+0"
 # ╠═abf827e7-0a9f-45e0-b89e-4b7ebaece273
 # ╟─b26522be-2c5e-4cd0-bfa2-eb20ff1f8070
 # ╠═f01ee3cf-674b-41e2-8615-aebacb9ba384
+# ╠═b92ca7c0-de44-4f39-9195-9d292b955885
 # ╟─26c4d01b-729e-4629-90a8-1e91247d0dff
 # ╠═44eadb1a-e4e2-4e62-a2b5-c29d11e9dc40
 # ╟─9d6a33a0-72c5-4c36-b1be-fa17996ceda9
@@ -1970,6 +2036,7 @@ version = "17.4.0+0"
 # ╠═57fffe2f-d145-4b51-93cf-9d7c47251f7d
 # ╠═209ec182-69a5-45ee-a08d-cbdc38b8c13d
 # ╟─5ed34817-3a39-47c0-af02-e40b112fc97f
+# ╟─f2ebc1b2-aedb-49a1-8e7f-4c1ed253dfd2
 # ╟─96c4c032-7444-496d-98df-88b297b02930
 # ╟─05377a5f-a2d8-49a9-a1db-d34165539350
 # ╟─f3d1f71c-5108-4394-a98d-dc670f1091ae
@@ -1979,10 +2046,11 @@ version = "17.4.0+0"
 # ╟─dd818b37-14bc-4864-b781-f4fe5f284f5e
 # ╟─89024599-24b2-4a2f-bc2e-2390a240ef73
 # ╟─75334264-9046-40aa-8976-c51a184c7f20
-# ╟─90dee13e-ae43-41c9-8b2f-477a99b8970c
+# ╠═90dee13e-ae43-41c9-8b2f-477a99b8970c
 # ╠═87c3c15c-eaff-4ecf-9e22-5153f82105b8
 # ╟─f79c7ca4-2d33-4cb6-80d6-769fc35a786e
 # ╟─95c1b74f-8455-4b29-8d5a-10caeb08eac0
+# ╟─3d5525e4-a4e7-402b-a059-4a2a68c6007b
 # ╠═acb697d5-7740-4288-a315-011bba9a4d3e
 # ╟─5591342f-66c4-41d6-a6e4-77860ca51ddb
 # ╟─9287b718-facc-4fc5-bdad-5db78d9cbb95
@@ -2026,7 +2094,7 @@ version = "17.4.0+0"
 # ╟─3cef878f-9c7c-4150-8277-79b6ca75ceb1
 # ╟─7a75bae4-dc0a-4e73-942d-60475fa2ce51
 # ╠═65f3959c-779f-4ac2-8ba0-2c008a532ce1
-# ╟─563f3087-85fd-4998-93a5-0121019a5827
+# ╠═563f3087-85fd-4998-93a5-0121019a5827
 # ╟─3baa2ab2-3007-42c7-82fa-dbf59ac53d5b
 # ╟─5d96001b-861a-47ec-bab3-242d1d7c5ce1
 # ╟─839efccb-0a96-4cd1-b98f-981017eb2de2
