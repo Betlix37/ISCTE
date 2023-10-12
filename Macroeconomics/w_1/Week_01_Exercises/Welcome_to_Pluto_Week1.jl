@@ -125,12 +125,6 @@ md"""
 ddasdas
 """
 
-# ╔═╡ 2e4b767f-45e2-47b4-b793-fe553f53bfad
-# ╠═╡ disabled = true
-#=╠═╡
-
-  ╠═╡ =#
-
 # ╔═╡ 564ff460-aa1f-4b9d-abf3-a024a13d96a3
 md"""
 
@@ -922,7 +916,7 @@ Then we have to have to write down our problem according to the syntax of NLsolv
 
 # ╔═╡ 7b2a274a-ee89-4bd7-a61a-eb9c97c7b548
 begin
-	function king_julien!(F, v)
+	function neco!(F, v)
 		
 		y1 = v[1] 
         y2 = v[2] 
@@ -948,9 +942,12 @@ Finally, we should compute the solution to our problem according to the syntax o
 
 # ╔═╡ 4852e7c0-6bdd-4f7e-8def-587db2fffd75
 begin
-	my_solution = nlsolve(king_julien!, [0.0 ; 0.0 ; 0.0])		# provides the solution
+	my_solution = nlsolve(neco!, [0 ; 0.0 ; 0.0])		# provides the solution
 	my_solution.zero   		 									# simplifies (rounds up) the solution
 end
+
+# ╔═╡ cb87898f-2999-4d9c-aee1-dd4100c9eaac
+my_solution
 
 # ╔═╡ a0468b27-1df3-4661-baec-e7adb42f281e
 md"""
@@ -2106,6 +2103,7 @@ version = "17.4.0+0"
 # ╠═7b2a274a-ee89-4bd7-a61a-eb9c97c7b548
 # ╟─59988d03-8580-4597-81da-225379f0298f
 # ╠═4852e7c0-6bdd-4f7e-8def-587db2fffd75
+# ╠═cb87898f-2999-4d9c-aee1-dd4100c9eaac
 # ╟─a0468b27-1df3-4661-baec-e7adb42f281e
 # ╟─02738dfd-8dc3-4396-be73-6242df0f5234
 # ╟─edbd2b1c-1452-41a6-962c-3434bd420020
